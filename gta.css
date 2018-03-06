@@ -1,0 +1,71 @@
+body 
+{
+	font-family: "Tahoma";
+    background-color: lightblue;
+}
+
+div
+{	padding:20px;
+	margin-top:30px;
+	height:1500px;
+}
+
+h1, h2 
+{
+	color: MediumSeaGreen;
+}
+
+table, th, td
+{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th 
+{
+    background-color: limegreen;
+    color: white;
+}
+
+tr:hover 
+{
+	background-color: limegreen;
+}
+
+ul#navigateBar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul#navigateBar li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
