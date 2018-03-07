@@ -12,7 +12,7 @@ div
 
 h1, h2 
 {
-	color: MediumSeaGreen;
+	color: mediumseagreen;
 }
 
 table, th, td
@@ -28,13 +28,13 @@ th, td
 
 th 
 {
-    background-color: limegreen;
+    background-color: tomato;
     color: white;
 }
 
 tr:hover 
 {
-	background-color: limegreen;
+	background-color: tomato;
 }
 
 ul#navigationBar
@@ -63,12 +63,10 @@ li a
     text-decoration: none;
 }
 
-li a:hover:not(.active)
-{
-    background-color: #black;
+li a:hover {
+    background-color: black;
 }
 
-.active 
-{
-    background-color: #limegreen;
+.active {
+    background-color: limegreen;
 }
