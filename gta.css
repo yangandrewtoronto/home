@@ -21,7 +21,8 @@ table, th, td
     border-collapse: collapse;
 }
 
-th, td {
+th, td 
+{
     padding: 15px;
 }
 
@@ -36,7 +37,7 @@ tr:hover
 	background-color: limegreen;
 }
 
-ul#navigateBar
+ul#navigationBar
 {
     list-style-type: none;
     margin: 0;
@@ -48,7 +49,7 @@ ul#navigateBar
     width: 100%;
 }
 
-ul#navigateBar li 
+ul#navigationBar li 
 {
     float: left;
 }
@@ -62,10 +63,12 @@ li a
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active)
+{
     background-color: #111;
 }
 
-.active {
+.active 
+{
     background-color: #4CAF50;
 }
